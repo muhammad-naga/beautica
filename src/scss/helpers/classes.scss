@@ -1,0 +1,50 @@
+// App custom classes
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+// Flexbox
+.d-flex {
+  display: flex;
+}
+.align-center {
+  @extend .d-flex;
+  align-items: center;
+}
+.justify-center {
+  @extend .d-flex;
+  justify-content: center;
+}
+.justify-between {
+  @extend .d-flex;
+  justify-content: space-between;
+}
+.justify-around {
+  @extend .d-flex;
+  justify-content: space-around;
+}
+.flex-column {
+  @extend .d-flex;
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+// Font
+.font-bold {
+  font-weight: bold;
+}
+.font-300 {
+  font-weight: 300;
+}
+.font-400 {
+  font-weight: 400;
+}
+.font-500 {
+  font-weight: 500;
+}
+.font-700 {
+  font-weight: 700;
+}

@@ -1,0 +1,55 @@
+// Font
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap");
+
+// Reset some elements
+:root {
+  font-size: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  // height: 5000px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+// Helpers
+@import "./helpers/classes.scss";
+@import "./helpers/mxin.scss";
+
+// Helpers
+@import "./helpers/variables.scss";
+
+// Components
+@import "./components/Navbar.scss";
+@import "./components/HomeLanding.scss";
+@import "./components/ShopByCategories.scss";
+@import "./components/ProductItem.scss";
+@import "./components/OurFeatures.scss";
+@import "./components/AppFooter.scss";
+@import "./components/ProductTabSection.scss";
+@import "./components/ProductModal.scss";
+
+// Pages
+@import "./pages/ShopPage.scss";
+@import "./pages/ProductPage.scss";
+@import "./pages/TestPage.scss";
+@import "./pages/CartPage.scss";
+@import "./pages/UserAccount.scss";
